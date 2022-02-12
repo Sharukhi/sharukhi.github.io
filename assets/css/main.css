@@ -173,9 +173,15 @@ html {
 }
 
 body {
-  background: #fff;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
-
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {

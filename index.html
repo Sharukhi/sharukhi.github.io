@@ -29,14 +29,16 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a  class="image fit thumb"><img src="images/fulls/mockup.jpg" alt="" /></a>
-								<h3>Openabacus</h3>
+								<h3>Dark Light Calculator</h3>
 								<p>A minimal calculator on the web </p>
-								<span><a href="https://github.com/Sharukhi/Openabacus" target="_blank"></a></span>
+								<span><a href="https://github.com/Sharukhi/Dark-Light-Calculator" target="_blank"></a></span>
 							</article>
 						</div>
 						<ul class="actions">						
 						</ul>
 					</section>
+					<button onclick="darkMode()">Darkmode</button>
+					
 			</div>
 			<footer id="footer">
 				<div class="inner">
@@ -56,5 +58,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function darkMode() {
+				  var element = document.body;
+				  element.classList.toggle("dark-mode");
+				}
+			  </script>
 	</body>
 </html>
